@@ -1,0 +1,41 @@
+# android studio
+.externalNativeBuild
+.navigation/
+captures/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# freeline
+freeline.py
+freeline/
+freeline_project_description.json
+
+# generated folders
+bin/
+gen/
+out/
+
+# google services
+google-services.json
+
+# gradle
+.gradle/
+build/
+
+# jetbrains
+.idea/
+*.iml
+
+# local config
+local.properties
+
+# proguard
+proguard/
+
+# zsh
+.zshrc*
