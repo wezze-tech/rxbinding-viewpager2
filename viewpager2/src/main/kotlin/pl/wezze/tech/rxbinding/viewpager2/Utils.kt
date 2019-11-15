@@ -1,4 +1,4 @@
-package com.github.ddmytrenko.rxbinding.viewpager2
+package pl.wezze.tech.rxbinding.viewpager2
 
 import android.os.Looper
 import androidx.annotation.RestrictTo

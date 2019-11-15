@@ -1,4 +1,4 @@
-package com.github.ddmytrenko.rxbinding.viewpager2
+package pl.wezze.tech.rxbinding.viewpager2
 
 import androidx.annotation.CheckResult
 import androidx.viewpager2.widget.ViewPager2
@@ -22,7 +22,10 @@ private class PageScrolledObservable(private val viewPager2: ViewPager2) : Obser
 
     override fun subscribeActual(observer: Observer<in PageScrollEvent>) {
         if (checkMainThread(observer)) {
-            RxPageChangeCallback(viewPager2, observer).run {
+            RxPageChangeCallback(
+                viewPager2,
+                observer
+            ).run {
                 observer.onSubscribe(disposable)
                 viewPager2.registerOnPageChangeCallback(this)
             }

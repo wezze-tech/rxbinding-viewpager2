@@ -1,4 +1,4 @@
-package com.github.ddmytrenko.rxbinding.viewpager2
+package pl.wezze.tech.rxbinding.viewpager2
 
 import androidx.annotation.CheckResult
 import androidx.viewpager2.widget.ViewPager2
@@ -17,7 +17,10 @@ private class PageSelectedObservable(private val viewPager2: ViewPager2) : Initi
         get() = viewPager2.currentItem
 
     override fun subscribeListener(observer: Observer<in Int>) {
-        RxPageChangeCallback(viewPager2, observer).run {
+        RxPageChangeCallback(
+            viewPager2,
+            observer
+        ).run {
             observer.onSubscribe(disposable)
             viewPager2.registerOnPageChangeCallback(this)
         }

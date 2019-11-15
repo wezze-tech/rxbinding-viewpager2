@@ -1,4 +1,4 @@
-package com.github.ddmytrenko.rxbinding.viewpager2
+package pl.wezze.tech.rxbinding.viewpager2
 
 import androidx.test.annotation.UiThreadTest
 import androidx.test.espresso.Espresso.onView
@@ -14,8 +14,8 @@ import androidx.viewpager2.widget.ViewPager2
 import androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_DRAGGING
 import androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_IDLE
 import androidx.viewpager2.widget.ViewPager2.SCROLL_STATE_SETTLING
-import com.github.ddmytrenko.rxbinding.viewpager2.RxViewPager2TestActivity.Companion.PAGER_ID
-import com.github.ddmytrenko.rxbinding.viewpager2.RxViewPager2TestActivity.Companion.RAINBOW
+import pl.wezze.tech.rxbinding.viewpager2.RxViewPager2TestActivity.Companion.PAGER_ID
+import pl.wezze.tech.rxbinding.viewpager2.RxViewPager2TestActivity.Companion.RAINBOW
 import com.jakewharton.rxbinding3.RecordingObserver
 import io.reactivex.android.schedulers.AndroidSchedulers
 import org.junit.Assert.assertEquals

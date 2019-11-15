@@ -1,4 +1,4 @@
-package com.github.ddmytrenko.rxbinding.viewpager2
+package pl.wezze.tech.rxbinding.viewpager2
 
 import android.app.Activity
 import android.os.Bundle
@@ -20,7 +20,8 @@ class RxViewPager2TestActivity : Activity() {
         super.onCreate(savedInstanceState)
         viewPager2 = ViewPager2(this).apply {
             id = PAGER_ID
-            adapter = TestAdapter(RAINBOW)
+            adapter =
+                TestAdapter(RAINBOW)
         }
         setContentView(viewPager2)
     }
