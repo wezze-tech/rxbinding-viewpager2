@@ -1,5 +1,8 @@
 [![](https://jitpack.io/v/wezze-tech/rxbinding-viewpager2.svg)](https://jitpack.io/#wezze-tech/rxbinding-viewpager2)
 
+# Deprecated
+Our PR was already merged by Jake Wharton to the original [RxBinding](https://github.com/JakeWharton/RxBinding) version `3.1.0`
+
 # rxbinding-viewpager2
 RxJava binding APIs for Android ViewPager2
 
