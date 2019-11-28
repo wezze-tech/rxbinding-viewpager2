@@ -12,5 +12,5 @@ First of all you have to add [JitPack.io](https://jitpack.io) Maven repository
 ```
 Then you can add `rxbinding-viewpager2` dependency
 ```groovy
-    implementation 'com.github.wezze-tech:rxbinding-viewpager2:1.0.0-rc01'
+    implementation 'com.github.wezze-tech:rxbinding-viewpager2:1.0.0'
 ```
